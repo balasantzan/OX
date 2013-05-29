@@ -6165,3 +6165,11 @@ a.badge:focus {
 .affix {
   position: fixed;
 }
+
+/*******Manualy inputed after original bootstrap code******/
+
+/****Making the website a width of 900px******/
+.container-narrow {
+  margin: 0 auto;
+  max-width: 900px;
+}
