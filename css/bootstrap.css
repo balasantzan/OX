@@ -6168,10 +6168,25 @@ a.badge:focus {
 
 /*******Manualy inputed after original bootstrap code******/
 
-/****Footer Classes******/
+
+.container-nav {
+  background: none repeat scroll 0 0 #FFFFFF;
+  height: 100px;
+  width: 100%;
+  display: block;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0px 0px 8px 0px #000000;
+}
+
 .container-narrow {
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 940px;
+}
+
+.spaceBetweenNav {
+  margin-top: 150px;
 }
 
 .footer {
@@ -6179,4 +6194,15 @@ a.badge:focus {
   margin-top: 40px;
   margin-bottom: 40px;
   text-align: center;
+}
+
+.masthead {
+  padding-top: 20px;
+  margin-bottom: -10px;
+  margin: 0 auto;
+  max-width: 940px;
+}
+
+.nav {
+  margin-top: 30px;
 }
