@@ -6246,9 +6246,29 @@ a.badge:focus {
 h2 {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   font-weight: 300;
+
+}
+.fontBlue{
+  color: #0088CC;
 }
 
 p {
-  font-family: "Roboto",​arial,​sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   font-size: 15px;
+}
+
+.listnone {
+  list-style: none;
+  margin-left: 0px;
+}
+
+.headLineBig {
+  font-size: 50px;
+}
+.grey {
+  color: #C0C0C0;
+}
+
+.imageListSide{
+  
 }
