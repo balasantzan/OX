@@ -6275,14 +6275,27 @@ p {
 }
 
 .appIcon{
-  margin-top: -15px;
+  margin-top: -12px;
   margin-bottom: -15px;
 }
 
+.compraloYaOxJr{
+  margin-top: 30px;
+}
+
+.lluviaDeAppsMargin{
+  margin-top: 15px;
+}
+
+
 /*******Fonts******/
 
-.grey {
-  color: #585858;
+.greyLight {
+  color: #C0C0C0;
+}
+
+.greyDark{
+  color: #505050;
 }
 
 .fontBlue{
@@ -6293,8 +6306,13 @@ p {
   color: #D00000;
 }
 
+.fontSizeMed{
+font-size: 25px;
+}
+
 .fontSizeList{
   font-size: 20px;
+  margin-top: 5px;
 }
 
 .headLineBig {
