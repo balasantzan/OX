@@ -6171,7 +6171,7 @@ a.badge:focus {
 
 .container-nav {
   background: none repeat scroll 0 0 #FFFFFF;
-  height: 100px;
+  height: 85px;
   width: 100%;
   display: block;
   position: fixed;
@@ -6197,7 +6197,7 @@ a.badge:focus {
 }
 
 .masthead {
-  padding-top: 20px;
+  padding-top: 10px;
   margin-bottom: -10px;
   margin: 0 auto;
   max-width: 940px;
@@ -6248,27 +6248,55 @@ h2 {
   font-weight: 300;
 
 }
-.fontBlue{
-  color: #0088CC;
-}
 
 p {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   font-size: 15px;
 }
 
+.listHorizontalLineMargin{
+  margin-top: -15px;
+}
+
+.headlineMargin2{
+  margin-top: 60px;
+  font-size: 40px;
+}
+
+.marginCompraloYa{
+  margin-top: -50px;
+}
+
 .listnone {
   list-style: none;
   margin-left: 0px;
+  margin-bottom: -10px;
+  margin-top: 15px;
+}
+
+.appIcon{
+  margin-top: -15px;
+  margin-bottom: -15px;
+}
+
+/*******Fonts******/
+
+.grey {
+  color: #585858;
+}
+
+.fontBlue{
+  color: #0088CC;
+}
+
+.fontRed {
+  color: #D00000;
+}
+
+.fontSizeList{
+  font-size: 20px;
 }
 
 .headLineBig {
   font-size: 50px;
-}
-.grey {
-  color: #C0C0C0;
-}
-
-.imageListSide{
-  
 }
