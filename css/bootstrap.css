@@ -6287,6 +6287,35 @@ p {
   margin-top: 15px;
 }
 
+.span3 > div {
+  border-bottom: solid;
+  border-top: solid;
+  border-width: 2px;
+  border-color: #D00000;
+}
+
+.orangeBorder > div {
+  border-bottom: solid;
+  border-top: solid;
+  border-width: 2px;
+  border-color: #FF4719;
+}
+.blueBorder > div {
+  border-bottom: solid;
+  border-top: solid;
+  border-right: solid;
+  border-width: 2px;
+  border-color: #0088CC;
+  border-radius:10px;
+}
+
+.numberAligned{
+  margin-top: 5px;
+}
+
+.maxBorderHeight{
+  height: 50px;
+}
 
 /*******Fonts******/
 
