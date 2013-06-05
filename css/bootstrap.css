@@ -6287,11 +6287,12 @@ p {
   margin-top: 15px;
 }
 
-.span3 > div {
+.redBorder> div {
   border-bottom: solid;
   border-top: solid;
   border-width: 2px;
   border-color: #D00000;
+  border-spacing: 0px;
 }
 
 .orangeBorder > div {
@@ -6299,6 +6300,7 @@ p {
   border-top: solid;
   border-width: 2px;
   border-color: #FF4719;
+  border-spacing: 0px;
 }
 .blueBorder > div {
   border-bottom: solid;
@@ -6307,6 +6309,7 @@ p {
   border-width: 2px;
   border-color: #0088CC;
   border-radius:10px;
+  border-spacing: 0px;
 }
 
 .numberAligned{
@@ -6319,6 +6322,16 @@ p {
 
 .iconsAlignedList{ 
   margin-top: -20px;
+}
+
+.removeMarginPadding{
+  padding: 0px;
+  margin: 0px;
+  display:block;
+  border: none;
+  vertical-align: middle;
+  border-collapse: collapse;
+  line-height: 0px;
 }
 
 /*******Fonts******/
