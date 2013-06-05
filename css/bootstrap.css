@@ -6317,6 +6317,10 @@ p {
   height: 50px;
 }
 
+.iconsAlignedList{ 
+  margin-top: -20px;
+}
+
 /*******Fonts******/
 
 .greyLight {
@@ -6346,4 +6350,8 @@ font-size: 25px;
 
 .headLineBig {
   font-size: 50px;
+}
+
+.fontSizeListOXJR{
+  font-size: 12px;
 }
