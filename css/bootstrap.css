@@ -6192,7 +6192,7 @@ a.badge:focus {
 .footer {
   color: #777777;
   margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
   text-align: center;
 }
 
@@ -6335,6 +6335,7 @@ p {
 }
 
 
+
 /*******Fonts******/
 
 .greyLight {
@@ -6370,7 +6371,7 @@ font-size: 25px;
   font-size: 12px;
 }
 
-/*********test***********/
+/*********HomePageCarousel**********/
 
 
     /* GLOBAL STYLES
@@ -6434,8 +6435,8 @@ font-size: 25px;
 
     /* Carousel base class */
     .carousel {
-      margin-bottom: 60px;
-      margin-top: 100px;
+      margin-bottom: -30px;
+      margin-top: 80px;
     }
 
     .carousel .container {
@@ -6469,14 +6470,14 @@ font-size: 25px;
       position: static;
       max-width: 550px;
       padding: 0 20px;
-      margin-top: 200px;
+      margin-top: 125px;
     }
     .carousel-caption h1,
     .carousel-caption .lead {
       margin: 0;
       line-height: 1.25;
-      color: #fff;
-      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      color: #505050;
+      
     }
     .carousel-caption .btn {
       margin-top: 10px;
