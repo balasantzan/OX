@@ -20,6 +20,7 @@
 	{{ content }}
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/feedback_tab.js"></script>
 
 
 	<!-- Timer for homepage pictures to change -->
@@ -32,25 +33,6 @@
    		 $('.carousel').carousel('cycle');
 		});
 	</script>
-
-
-	<!-- Zendesk js for support tab -->
-	<script type="text/javascript" src="//assets.zendesk.com/external/zenbox/v2.6/zenbox.js"></script>
-	<style type="text/css" media="screen, projection">
- 	 @import url(//assets.zendesk.com/external/zenbox/v2.6/zenbox.css);
-	</style>
-	<script type="text/javascript">
-  	if (typeof(Zenbox) !== "undefined") {
-    Zenbox.init({
-      dropboxID:   "20181841",
-      url:         "https://oxtablet.zendesk.com",
-      tabTooltip:  "Soporte",
-      tabImageURL: "https://assets.zendesk.com/external/zenbox/images/tab_es_support.png",
-      tabColor:    "black",
-      tabPosition: "Left"
-    });
-  }
-</script>
 
 </body>
 
