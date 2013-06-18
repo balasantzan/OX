@@ -111,7 +111,14 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	60% {transform: translateY(-15px);}
 }
 
-.bounce {
+.bounceh:hover {
+	-webkit-animation-name: bounce;
+	-moz-animation-name: bounce;
+	-o-animation-name: bounce;
+	animation-name: bounce;
+}
+
+.bounce{
 	-webkit-animation-name: bounce;
 	-moz-animation-name: bounce;
 	-o-animation-name: bounce;
@@ -270,6 +277,13 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 }
 
 .pulse {
+	-webkit-animation-name: pulse;
+	-moz-animation-name: pulse;
+	-o-animation-name: pulse;
+	animation-name: pulse;
+}
+
+.pulseh:hover {
 	-webkit-animation-name: pulse;
 	-moz-animation-name: pulse;
 	-o-animation-name: pulse;
