@@ -667,6 +667,18 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	backface-visibility: visible !important;
 	animation-name: flipOutY;
 }
+
+.flipOutYA:active {
+	-webkit-backface-visibility: visible !important;
+	-webkit-animation-name: flipOutY;
+	-moz-backface-visibility: visible !important;
+	-moz-animation-name: flipOutY;
+	-o-backface-visibility: visible !important;
+	-o-animation-name: flipOutY;
+	backface-visibility: visible !important;
+	animation-name: flipOutY;
+}
+
 @-webkit-keyframes fadeIn {
 	0% {opacity: 0;}	
 	100% {opacity: 1;}
