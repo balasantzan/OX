@@ -31,6 +31,62 @@
 })
 	</script>
 
+
+<!-- Next Button reclamos-->
+	<script type="text/javascript">
+	// Short-form of `document.ready`
+$(function(){
+    $("#div2, #div3, #div4, #div5, #div6, #back").hide();
+    $("#next").on("click", function(){
+    	if($("#div1").is(":visible")){
+    		$("#div1").hide();
+	        $("#div2, #back").show();    	}
+	    else if($("#div2").is(":visible")){
+	        $("#div3").show();
+	        $("#div2").hide();
+    	}
+    	else if($("#div3").is(":visible")){
+	        $("#div4").show();
+	        $("#div3").hide();
+    	}
+    	else if($("#div4").is(":visible")){
+	        $("#div5").show();
+	        $("#div4").hide();
+    	}
+    	else if($("#div5").is(":visible")){
+	        $("#div6").show();
+	        $("#div5").hide();
+    	}
+    });
+});
+$(function(){
+    $("#back").on("click", function(){
+	    if($("#div2").is(":visible")){
+	        $("#div1").show();
+	        $("#div2, #back").hide();
+    	}
+    	else if($("#div3").is(":visible")){
+	        $("#div2").show();
+	        $("#div3").hide();
+    	}
+    	else if($("#div4").is(":visible")){
+	        $("#div3").show();
+	        $("#div4").hide();
+    	}
+    	else if($("#div5").is(":visible")){
+	        $("#div4").show();
+	        $("#div5").hide();
+    	}
+    	else if($("#div6").is(":visible")){
+	        $("#div5").show();
+	        $("#div6").hide();
+    	}
+    });
+});
+
+</script>
+
+
 </body>
 
 <footer>

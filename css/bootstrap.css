@@ -6349,6 +6349,7 @@ p {
   box-shadow: 0px 0px 5px #888;
 }
 
+
 .paddingPages{
   padding-left: 60px;
   padding-right: 60px;
@@ -6389,6 +6390,27 @@ font-size: 25px;
 .fontSizeListOXJR{
   font-size: 12px;
 }
+
+/*********Reclamos**********/
+.heightReclamos{
+  height: 250px;
+}
+.backgroundMain2{
+  padding: 20px;
+  height: 175px;
+  background-color: white;
+  border-bottom: solid;
+  border-top: solid;
+  border-right: solid;
+  border-width: 2px;
+  border-color: white;
+  border-radius:1px;
+  border-spacing: 0px;
+  -moz-box-shadow: 0px 0px 5px #888;
+  -webkit-box-shadow: 0px 0px 5px #888;
+  box-shadow: 0px 0px 5px #888;
+}
+
 
 /*********HomePageCarousel**********/
 
