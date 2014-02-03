@@ -6274,6 +6274,13 @@ p {
   margin-top: 15px;
 }
 
+.listnone2 {
+  list-style: none;
+  margin-left: 0px;
+  margin-bottom: -20px;
+  margin-top: -20px;
+}
+
 .appIcon{
   margin-top: -12px;
   margin-bottom: -15px;
@@ -6389,6 +6396,20 @@ font-size: 25px;
 
 .fontSizeListOXJR{
   font-size: 12px;
+}
+
+.featureBox{
+  margin-top: 10px;
+  border-bottom: solid;
+  border-top: solid;
+  border-right: solid;
+  border-width: 2px;
+  border-color: white;
+  border-radius:1px;
+  border-spacing: 0px;
+  -moz-box-shadow: 0px 0px 5px #888;
+  -webkit-box-shadow: 0px 0px 5px #888;
+  box-shadow: 0px 0px 5px #888;
 }
 
 /*********Reclamos**********/
