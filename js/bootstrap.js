@@ -2278,3 +2278,25 @@
 
 
 }(window.jQuery);
+
+/* Show/hide more-info for product on home page on hover */
+$('.thumbnail').on('mouseenter', function() {
+
+  // Calculate proportional width and margins and set them (depending on thumbnail size)
+  var thumbnailSize = $(this).parent().attr("class");
+  if ( thumbnailSize == "span4" ) {
+      $(this).find('.more-info').css({'margin-left': '22px'});
+  } else if ( thumbnailSize == "span6" ) {
+      $(this).find('.more-info').css({'width': '238px', 'margin-left': '76px'});
+  } else if ( thumbnailSize == "span12" ) {
+      $(this).find('.more-info').css({'width': '221px', 'margin-left': '327px'});
+  }
+
+  // animate (show) more-info box
+  $(this).find('.more-info').animate({'margin-top': '0px', 'opacity': '1'}, 'fast');
+});
+
+// animate (hide) more-info box
+$('.thumbnail').on('mouseleave', function() {
+  $(this).find('.more-info').animate({'margin-top': '0px', 'opacity': '0'}, 'fast');
+});
